@@ -1,13 +1,13 @@
 import React from "react";
+import {Link} from 'react-router-dom';
+import './Header.css'
 
 function Header(){
     return(
-        <header>
-            <h1>The most visited cities around the world</h1>
-            <nav>
-                <h1>Home</h1> <h1>blog</h1>
-            </nav>
-        </header>
+        <nav>
+        <Link to="/"> Home</Link>
+        {/* <Link to="/city/:id"> TourDetail</Link> */}
+    </nav>
     )
 };
 
