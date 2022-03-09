@@ -13,7 +13,9 @@ function Tours (props) {
                     <Link to={`city/${place.id}`}>
                         <h3>{place.name}</h3>
                         <img src={place.image} alt="" />
-                        </Link>
+
+                    </Link>
+
                         {/* <p>{place.info}</p> */}
                         {/* <p>{place.price}</p> */}
                     </div>
